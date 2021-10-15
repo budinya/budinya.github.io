@@ -55,19 +55,13 @@ copyright © 2021 All Rights Reserved. <a href=""></a>
 <script type="text/javascript">
 	function change(){
 		var bodyBgs = [];
-bodyBgs[1] = "http://img.netbian.com/file/2019/1016/0e323068cb10e3baacc930b3482d9754.jpg";
-bodyBgs[2] = "http://img.netbian.com/file/2019/1016/0e323068cb10e3baacc930b3482d9754.jpg";
-bodyBgs[3] = "http://img.netbian.com/file/2019/1016/0e323068cb10e3baacc930b3482d9754.jpg";
-bodyBgs[4] = "http://img.netbian.com/file/2019/0824/fe28123a86549be48bc00d639da77c60.jpg";
-bodyBgs[5] = "http://img.netbian.com/file/2019/0824/fe28123a86549be48bc00d639da77c60.jpg";
-bodyBgs[6] = "http://img.netbian.com/file/2019/0824/fe28123a86549be48bc00d639da77c60.jpg";
-bodyBgs[7] = "https://pic.netbian.com/uploads/allimg/190824/212516-15666531161ade.jpg";
-bodyBgs[8] = "https://pic.netbian.com/uploads/allimg/190824/212516-15666531161ade.jpg";
-bodyBgs[9] = "https://pic.netbian.com/uploads/allimg/190824/212516-15666531161ade.jpg";
-bodyBgs[10] = "https://pic.netbian.com/uploads/allimg/190614/221508-15605217086e6f.jpg";
-bodyBgs[11] = "https://pic.netbian.com/uploads/allimg/190614/221508-15605217086e6f.jpg";
-bodyBgs[12] = "https://pic.netbian.com/uploads/allimg/190614/221508-15605217086e6f.jpg";
-		var randomBgIndex = Math.round( Math.random() * 12 );
+bodyBgs[1] = "https://pic.netbian.com/uploads/allimg/190824/212516-15666531161ade.jpg";
+bodyBgs[2] = "https://pic.netbian.com/uploads/allimg/210408/195203-161788272351de.jpg";
+bodyBgs[3] = "https://pic.netbian.com/uploads/allimg/200216/173018-1581845418d594.jpg";
+bodyBgs[4] = "https://pic.netbian.com/uploads/allimg/210521/231537-1621610137b3d6.jpg";
+bodyBgs[5] = "https://pic.netbian.com/uploads/allimg/210511/234901-1620748141fe15.jpg";
+bodyBgs[6] = "https://pic.netbian.com/uploads/allimg/210519/003009-1621355409921d.jpg";
+		var randomBgIndex = Math.round( Math.random() * 6 );
 		var img1= document.getElementById('bgimg');
 		img1.style.backgroundImage='url(' + bodyBgs[randomBgIndex] + ')';
 	        window.setTimeout(function(){change()},10000);
