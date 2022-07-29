@@ -1,0 +1,25 @@
+#paaa_main{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-color: #818181;
+    background-image: url(https://i0.hdslb.com/bfs/article/f33eca72e3ecc65ae001077d93eb53dd353945eb.jpg);
+}
+
+#paaa_main:after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: -1;
+    position: fixed;
+/*  background-color: rgba(66,66,66,.6); */
+}
