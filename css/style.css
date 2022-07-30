@@ -87,7 +87,7 @@ body{
 	height: 100%;
 	min-width: 300px;
 	z-index: 2;
-	cursor:url(src/default.cur), auto;
+	cursor:url(../src/default.cur), auto;
 }
 body:before {
   content: ' ';
@@ -104,7 +104,7 @@ a {
 
 a:hover {
 	color: #00b3ba;
-	cursor:url(src/hand.cur),auto
+	cursor:url(../src/hand.cur),auto
 }
 b {
 	background-color: rgba(0,179,186,0.4)
@@ -312,7 +312,7 @@ width:12px;
 height:12px;
 top:10px;
 left:10px;
-background: url(src/snow.gif);
+background: url(../src/snow.gif);
 font-size: 10px;
 position:absolute; /*这个是关键*/
 z-index:102;
@@ -321,7 +321,7 @@ z-index:102;
 -webkit-animation: none;
 animation: none;
 z-index:103;
-background: url(src/snow.gif);/*没有这个在IE中不可用*/
+background: url(../src/snow.gif);/*没有这个在IE中不可用*/
 }
 .tooltips span{
 display: none;
